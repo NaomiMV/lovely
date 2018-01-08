@@ -1,0 +1,450 @@
+/*
+Theme Name: Snotgirl
+Author: Naomi
+Author URI: https://www.instagram.com/lovely.naomi/
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', black;
+    font-size: 100px;
+    top: 10px;
+    height: 80px;
+}
+
+h1 a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+#intro{
+   margin-left: 115px;
+    margin-top: 20px;
+   width: 155px;
+    float: left;
+}
+#intro a:link, a:visited{
+    color: black;
+    
+}
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+#menu div {
+    float: right;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+#menutop {
+    text-align:center;
+}
+
+#menutop ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menutop li {
+   margin: 0;
+   display: inline;
+   padding: 10px;
+}
+
+#menutop a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#menutop a:hover {
+    text-decoration: underline;
+}
+
+#me{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 50%;
+}
+.posts{
+   float: left;
+    width: 540px;
+    right: 230px;
+    margin-top: 25px;
+    padding-left: 260px;
+     
+}
+footer {
+   clear: both;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;   /* Height of the footer */
+}
+#tags a:link, a:visited{
+    color: black;
+    display: inline;
+    text-decoration: none;
+}
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', black;
+    font-size: 50px;
+    top: 5px;
+    height: 40px;
+}
+#intro{
+   margin-left: 65px;
+    margin-top: 20px;
+   width: 155px;
+    float: left;
+}
+#intro a:link, a:visited{
+    color: black;
+    
+}
+#menu {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+#menu div {
+    float: right;
+    width: 50%;
+    height: 50px;
+    background-color: white;
+}
+
+#menutop {
+    text-align:center;
+}
+
+#menutop ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menutop li {
+   margin: 0;
+   display: inline;
+   padding: 10px;
+}
+
+#menutop a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#menutop a:hover {
+    text-decoration: underline;
+}
+
+#me{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 50%;
+}
+.posts{
+   float: left;
+    width: 270px;
+    right: 115px;
+    margin-top: 13px;
+    padding-left: 7px;
+}
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', black;
+    font-size: 50px;
+    top: 10px;
+    height: 40px;
+}
+#intro{
+   padding-right: 105px;
+    margin-top: 20px;
+   width: 155px;
+    float: left;
+}
+#intro a:link, a:visited{
+    color: black;
+    
+}
+#menu {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+#menu div {
+    float: right;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+#menutop {
+    text-align:center;
+}
+
+#menutop ul {
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+      
+#menutop li {
+   margin: 0;
+   display: inline;
+   padding: 10px; 
+}
+
+#menutop a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+#menutop a:hover {
+    text-decoration: underline;
+}
+
+#me{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+}
+      
+.posts{
+   float: left;
+   width: 365px;
+   right: 115px;
+   margin-top: 12px;
+   margin-left: 50px;
+padding-top: 20px;
+}
+}
+
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', black;
+    font-size: 50px;
+    top: 10px;
+    height: 40px;
+}
+#intro{
+   margin-left: 115px;
+    margin-top: 20px;
+   width: 155px;
+    float: left;
+}
+#intro a:link, a:visited{
+    color: black;
+    
+}
+#menu {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+#menu div {
+    float: right;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+#menutop {
+    text-align:center;
+}
+
+#menutop ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menutop li {
+   margin: 0;
+   display: inline;
+   padding: 10px;
+}
+
+#menutop a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#menutop a:hover {
+    text-decoration: underline;
+}
+
+#me{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+}
+.posts{
+   float: left;
+    width: 365px;
+    right: 115px;
+    margin-top: 12px;
+    padding-left: 140px;
+}
+
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', black;
+    font-size: 50px;
+    top: 10px;
+    height: 80px;
+}
+#intro{
+   margin-left: 35px;
+    margin-top: 20px;
+    font-size: 70%;
+    width: 255px;
+    background-color: #ccc;
+    text-align: center;
+}
+#intro a:link, a:visited{
+    color: black;
+    
+}
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+#menu div {
+    float: right;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+#menutop {
+    text-align:center;
+}
+
+#menutop ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menutop li {
+   margin: 0;
+   display: inline;
+   padding: 10px;
+}
+
+#menutop a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#menutop a:hover {
+    text-decoration: underline;
+}
+
+#me{
+    padding-top: 20px;
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+}
+.posts{
+   float: left;
+    width: 260px;
+    right: 115px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+footer {
+   clear: both;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;   /* Height of the footer */
+}
+}
+
